@@ -25,11 +25,11 @@ Once the containers are up, open your browser and run the web app hosted at [htt
 
 #### Server
 
-Follow the [README](./server/readme.md) in the server module.
+Follow the [README](./server/README.md) in the server module.
 
 #### Client
 
-Once you get the server up and running, it's time to run the client app. You can do so by following the [README](./client/readme.md) in the client module. 
+Once you get the server up and running, it's time to run the client app. You can do so by following the [README](./client/README.md) in the client module. 
 
 Similarly to the [Docker setup](#Docker), you can now open your browser and run the web app hosted at [http://localhost:3000](http://localhost:3000)
 
