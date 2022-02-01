@@ -1,0 +1,56 @@
+@import '../../../../styles/colors.scss';
+
+.analytics-date-time-messages {
+  padding-top: 20px !important;
+
+  h2 {
+    margin-bottom: 60px;
+  }
+
+  &__summary {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+
+    h1 {
+      color: $purple-light;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-bottom: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    span {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+  &__chart {
+    height: 300px;
+    display: flex;
+    flex: 1.5;
+    overflow: hidden;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__content-details {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #03334421;
+    padding: 20px 20px;
+    border-radius: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

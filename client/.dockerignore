@@ -1,0 +1,14 @@
+# Ignore everything
+**
+
+# Allow files and directories
+!/src/**
+!/public
+!/webpack.config.js
+!/tsconfig.json
+!/package.json
+!/.babelrc
+!/nginx.conf
+
+# Ignore unnecessary files inside allowed directories
+**/.DS_Store

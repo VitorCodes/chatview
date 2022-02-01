@@ -1,0 +1,50 @@
+{
+  "name": "chat-view",
+  "version": "1.0.0",
+  "description": "Chat data visualizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --inline",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorCodes/chat-frame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorCodes/chat-frame/issues"
+  },
+  "homepage": "https://github.com/VitorCodes/chat-frame#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bizcharts": "^4.0.14",
+    "chroma-js": "^2.1.0",
+    "file-saver": "^2.0.2",
+    "html2canvas": "^1.0.0-rc.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-hot-toast": "^2.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.5",
+    "typescript": "^4.0.3",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

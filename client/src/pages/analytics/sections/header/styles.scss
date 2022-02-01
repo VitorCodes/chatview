@@ -1,0 +1,30 @@
+@import '../../../../styles/colors.scss';
+
+.analytics-header {
+  text-align: center;
+
+  h1 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: $white-text;
+    text-shadow: 0 0 1rem $green-dark;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: $green-light;
+    text-transform: uppercase;
+  }
+
+  span {
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: 0 5px;
+    text-shadow: 0 0 1rem $green-dark;
+  }
+
+  &__participants {
+    margin: 10px 60px;
+  }
+}

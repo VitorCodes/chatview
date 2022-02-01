@@ -1,0 +1,107 @@
+@import '../../styles//colors.scss';
+
+$bubble-padding: 10px;
+$bubble-width: 200px;
+$bubble-height: 120px;
+$bubble-border-radius: 10px;
+$arrow-width: 70px;
+$arrow-height: 70px;
+$arrow-border-radius: 4px;
+
+.chat-bubble {
+  position: relative;
+  width: $bubble-width;
+  height: $bubble-height;
+
+  &__content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__bubble {
+    position: relative;
+    width: $bubble-width;
+    height: $bubble-height;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: $arrow-width;
+      height: $arrow-height;
+      border-radius: $arrow-border-radius;
+      transform-origin: center center;
+      transform: rotate(30deg);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform-origin: top right;
+      border-radius: $bubble-border-radius;
+    }
+
+    &-right {
+      &::before {
+        right: $bubble-width * 0.1;
+        transform: rotate(30deg);
+      }
+    }
+
+    &-left {
+      &::before {
+        left: $bubble-width * 0.1;
+        transform: rotate(-30deg);
+      }
+    }
+
+    &-variant-primary {
+      &::before {
+        background: $green-dark;
+      }
+
+      &::after {
+        background: linear-gradient(180deg, $green-light 0%, $green-dark 80%);
+      }
+    }
+
+    &-variant-secondary {
+      &::before {
+        background: $pink-dark;
+      }
+
+      &::after {
+        background: linear-gradient(180deg, $pink-light 0%, $pink-dark 80%);
+      }
+    }
+
+    &-outline {
+      background: linear-gradient(180deg, $green-light 0%, $green-dark 80%);
+      border-radius: $bubble-border-radius + 5px;
+
+      &::before {
+        border: 5px solid $green-dark;
+        background: $blue-darkest;
+      }
+
+      &::after {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        background: $blue-darkest;
+      }
+    }
+  }
+}

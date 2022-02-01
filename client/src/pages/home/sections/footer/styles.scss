@@ -1,0 +1,27 @@
+@import '../../../../styles/colors.scss';
+
+.footer {
+  color: $white-text;
+  display: flex;
+  font-size: 0.75rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+	background: linear-gradient(135deg, $pink-dark 0%, $blue-dark 100%);
+
+	>div {
+		margin-top: 10px;
+	}
+
+  a {
+    margin: 10px;
+		font-size: 1rem;
+		color: $pure-white;
+		padding-bottom: 5px;
+		font-weight: bold;
+
+		&:hover {
+			color: $green-lightest;
+		}
+  }
+}

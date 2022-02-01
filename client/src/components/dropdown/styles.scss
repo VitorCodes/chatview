@@ -1,0 +1,105 @@
+@import '../../styles/colors.scss';
+
+.dropdown {
+  position: relative;
+  display: flex;
+  flex: 1;
+  font-size: 0.9rem;
+  height: 40px;
+  font-weight: 300;
+
+  &:hover {
+    .dropdown__btn {
+      span {
+        color: $blue-dark;
+      }
+      > img {
+        filter: invert(11%) sepia(78%) saturate(7407%) hue-rotate(258deg)
+          brightness(83%) contrast(99%);
+      }
+      .arrow-down {
+        border-top: 6px solid $blue-dark;
+      }
+    }
+  }
+
+  &__btn {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    > img {
+      margin: 0;
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+      transition: filter 0.2s;
+      filter: invert(6%) sepia(13%) saturate(2661%) hue-rotate(159deg)
+        brightness(93%) contrast(100%);
+    }
+
+    > span {
+      display: flex;
+      flex: 1;
+      transition: color 0.2s;
+    }
+
+    .arrow-down {
+      margin-top: 4px;
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 6px solid $blue-darkest;
+      transition: border-top 0.2s;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__menu {
+    background: $white;
+    position: absolute;
+    list-style-type: none;
+    top: 40px;
+    width: 180px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 200;
+
+    &--option-disabled {
+      opacity: 0.3;
+      &:hover {
+        cursor: default;
+      }
+    }
+
+    &--option-enabled {
+      &:hover {
+        cursor: pointer;
+        background: $white-text;
+      }
+    }
+
+    img {
+      margin: 0;
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+      filter: invert(13%) sepia(12%) saturate(1070%) hue-rotate(160deg)
+        brightness(103%) contrast(97%);
+    }
+
+    li {
+      display: flex;
+      height: 40px;
+      margin: 0;
+      padding: 10px;
+      align-items: center;
+      color: $blue-darkest;
+      transition: background 0.2s;
+    }
+  }
+}

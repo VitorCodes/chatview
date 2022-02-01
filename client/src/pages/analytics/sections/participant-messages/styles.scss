@@ -1,0 +1,72 @@
+@import '../../../../styles/colors.scss';
+
+.analytics-participant-messages {
+  padding-top: 20px !important;
+
+  p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: $white-text;
+  }
+
+  &__title-container {
+    text-align: center;
+    margin-bottom: 60px;
+
+    p {
+      margin-top: 10px;
+      font-size: 0.75rem;
+    }
+
+    span {
+      font-size: 0.8rem;
+      font-weight: 300;
+      padding: 0 5px;
+      color: $purple-light;
+      font-weight: bold;
+    }
+  }
+
+  &__summary {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 10px;
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+
+    h4 {
+      margin: 5px 0;
+    }
+
+    span {
+      font-weight: 200;
+      font-size: 0.85rem;
+    }
+
+    &__upper {
+      margin-right: 100px;
+    }
+
+    &__lower {
+      margin-left: 100px;
+      margin-top: -15px;
+    }
+  }
+
+  &__chart {
+    flex: 1.5;
+    overflow: hidden;
+  }
+
+  .content-details {
+    display: flex;
+    align-items: center;
+  }
+}

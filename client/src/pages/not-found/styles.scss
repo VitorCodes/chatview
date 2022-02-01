@@ -1,0 +1,25 @@
+@import '../../styles/colors.scss';
+
+.not-found {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	padding-bottom: 20vh;
+	background: $blue-darkest;
+	background: linear-gradient(135deg, $green-darkest 0%, $blue-darkest 100%);
+
+	h1 {
+		color: $white-text;
+		font-size: 8rem;
+		font-weight: bolder;
+		margin-bottom: 1rem;
+	}
+
+	h3 {
+		color: $white-text;
+		font-size: 2rem;
+		font-weight: 200;
+	}
+}

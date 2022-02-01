@@ -1,0 +1,19 @@
+version: "3"
+services:
+  client:
+    build: ./client
+    restart: always
+    networks:
+      - api
+    ports:
+      - "3000:80"
+  server:
+    build: ./server
+    restart: always
+    networks:
+      - api
+    ports:
+      - "5000:5000"
+networks:
+  api:
+    driver: bridge

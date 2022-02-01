@@ -1,0 +1,61 @@
+@import '../../../../styles/colors.scss';
+
+.analytics-emojis {
+  padding-top: 20px !important;
+
+  &__title-container {
+    h2,
+    p {
+      text-align: center;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 0.75rem;
+      margin-bottom: 60px;
+    }
+
+    span {
+      font-size: 0.8rem;
+      font-weight: 300;
+      padding: 0 5px;
+      color: $purple-light;
+      font-weight: bold;
+    }
+  }
+
+  &__fav-emoji {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid $green-border;
+    margin: 0 10px;
+
+    h1 {
+      font-size: 7rem;
+      padding: 10px 0;
+      text-shadow: 0.5rem 0.5rem darken($green-lighter, 30%);
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    span {
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: $green-lighter;
+    }
+  }
+
+  &__chart {
+    flex: 1.5;
+    overflow: hidden;
+  }
+
+  .content-details {
+    display: flex;
+  }
+}

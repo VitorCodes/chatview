@@ -1,0 +1,129 @@
+{
+  "participants": [
+    {
+      "name": "Jane Doe"
+    },
+    {
+      "name": "John Doe"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1641556389326,
+      "content": "Snow use. The joke is over.",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Jane Doe",
+      "timestamp_ms": 1641556363793,
+      "content": "Snow who?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1641556322319,
+      "content": "Snow.",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Jane Doe",
+      "timestamp_ms": 1641556112297,
+      "content": "Who's there?",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1641556101072,
+      "content": "Knock knock.",
+      "type": "Generic",
+      "is_unsent": false
+    },
+		{
+      "sender_name": "John Doe",
+      "timestamp_ms": 1607618529160,
+      "content": "Foo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1607617994502,
+      "content": "Foo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Jane Doe",
+      "timestamp_ms": 1607617901171,
+      "content": "Foo",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "John Doe"
+        }
+      ],
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Jane Doe",
+      "timestamp_ms": 1607602058941,
+      "content": "Foo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1607601305992,
+      "content": "Foo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1607596642073,
+      "content": "Foo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1607596623687,
+      "content": "Foo",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Jane Doe",
+      "timestamp_ms": 1607595717465,
+      "content": "Foo \u00f0\u009f\u0098\u009b\u00f0\u009f\u0098\u009b",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "Jane Doe",
+      "timestamp_ms": 1607595716806,
+      "content": "Foo \u00f0\u009f\u0098\u009b",
+      "type": "Generic",
+      "is_unsent": false
+    },
+    {
+      "sender_name": "John Doe",
+      "timestamp_ms": 1607595492142,
+      "content": "Foo \u00e2\u009d\u00a4\u00ef\u00b8\u008f\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+      "type": "Generic",
+      "is_unsent": false
+    }
+  ],
+  "title": "Jane Doe",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "magic_words": [
+    
+  ]
+}

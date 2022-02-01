@@ -1,0 +1,122 @@
+@import '../../../../styles/colors.scss';
+@import '../../../../styles//globals.scss';
+
+$icon-width: 120px;
+
+.hero {
+  position: relative;
+  background: $blue-darkest;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 4rem;
+
+  .cta-wrapper {
+    position: relative;
+    margin: 0;
+    border: none;
+    border-radius: 6px;
+    background: $white;
+    display: flex;
+    align-items: center;
+
+    .file-upload-btn-wrapper {
+      @extend .clickable;
+      display: flex;
+      flex: 1;
+      height: 100%;
+      padding: 10px 0;
+
+      .file-upload {
+        &-btn {
+          @extend .clickable;
+          background: transparent;
+          display: flex;
+          align-items: center;
+          min-width: 180px;
+          margin-left: 20px;
+          border: none;
+          border-right: 1px solid #c0c0c0;
+          font-weight: 300;
+
+          span {
+            display: flex;
+            flex: 1;
+            margin-right: 20px;
+            transition: color 0.2s;
+            font-size: 0.9rem;
+          }
+
+          img {
+            margin: 0;
+            margin-right: 20px;
+            width: 20px;
+            height: 20px;
+            filter: invert(6%) sepia(13%) saturate(2661%) hue-rotate(159deg)
+              brightness(93%) contrast(100%);
+            transition: filter 0.2s;
+          }
+        }
+
+        &-placeholder {
+          color: #85929b;
+        }
+      }
+
+      &:hover {
+        img {
+          filter: invert(11%) sepia(78%) saturate(7407%) hue-rotate(258deg)
+            brightness(83%) contrast(99%);
+        }
+      }
+    }
+
+    .dropdown-wrapper {
+      display: flex;
+      flex: 1;
+      height: 100%;
+      margin: 0 20px;
+      min-width: 180px;
+      align-items: center;
+    }
+  }
+
+  .hero-title-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+    padding-right: $icon-width;
+
+    img {
+      height: auto;
+      width: $icon-width;
+      margin: 0 50px;
+      overflow: hidden;
+      display: inline;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: $white-text;
+      display: inline;
+    }
+  }
+
+  p {
+    color: $white-text;
+    width: 45%;
+    font-size: 1.2rem;
+    font-weight: 200;
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .hidden {
+    display: none;
+  }
+}

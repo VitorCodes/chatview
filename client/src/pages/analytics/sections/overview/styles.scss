@@ -1,0 +1,109 @@
+@import '../../../../styles/colors.scss';
+
+$vertical-padding: 30px;
+$horizontal-padding: 20px;
+
+.analytics-overview {
+  text-align: center;
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: $white-text;
+  }
+
+  &__chronology {
+    margin-bottom: $vertical-padding;
+
+    h2 {
+      font-size: 1rem;
+      color: $green-lighter;
+    }
+
+    p {
+      margin-top: 5px;
+      font-size: 0.75rem;
+    }
+
+    span {
+      font-size: 0.8rem;
+      font-weight: 300;
+      padding: 0 5px;
+      font-weight: bold;
+    }
+  }
+
+  &__entities {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    &-entity {
+      padding: 10px $horizontal-padding 0 $horizontal-padding;
+      text-align: center;
+
+      img {
+        height: 50px;
+      }
+
+      .filter {
+        &_green-1 {
+          filter: invert(24%) sepia(57%) saturate(2606%) hue-rotate(166deg)
+            brightness(88%) contrast(85%);
+        }
+
+        &_green-2 {
+          filter: invert(40%) sepia(60%) saturate(855%) hue-rotate(137deg)
+            brightness(91%) contrast(87%);
+        }
+
+        &_yellow {
+          filter: invert(88%) sepia(25%) saturate(415%) hue-rotate(7deg)
+            brightness(99%) contrast(87%);
+          filter: invert(76%) sepia(7%) saturate(1268%) hue-rotate(348deg)
+            brightness(84%) contrast(83%);
+          filter: invert(99%) sepia(76%) saturate(1698%) hue-rotate(21deg)
+            brightness(86%) contrast(86%);
+        }
+
+        &_orange {
+          filter: invert(71%) sepia(94%) saturate(2988%) hue-rotate(331deg)
+            brightness(98%) contrast(90%);
+        }
+
+        &_red {
+          filter: invert(51%) sepia(9%) saturate(4108%) hue-rotate(315deg)
+            brightness(94%) contrast(100%);
+        }
+
+        &_blue {
+          // 2E9BFA
+          filter: invert(65%) sepia(72%) saturate(4377%) hue-rotate(185deg)
+            brightness(97%) contrast(102%);
+          filter: invert(83%) sepia(58%) saturate(1860%) hue-rotate(158deg)
+            brightness(94%) contrast(87%);
+        }
+      }
+
+      h2 {
+        margin: 5px 0;
+        color: $purple-light;
+      }
+
+      h3 {
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
