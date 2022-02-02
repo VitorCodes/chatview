@@ -88,7 +88,8 @@ module.exports = {
     },
     plugins: [
         new HTMLWebPackPlugin({
-            template: './public/index.html'
+            template: './public/index.html',
+						favicon: './public/favicon.svg'
         })
     ]
 };
