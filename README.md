@@ -3,7 +3,7 @@
 Web app that generates reports on social media chat history, such as **Messenger**, **Whatsapp**, **Instagram** and **Telegram**.
 
 <p align="center">
-	<img src="docs/demo.gif" alt="chat report" width="100%"/>
+	<img src="docs/demo.gif" alt="chat report" width="100%" style="border-radius: 10px" />
 </p>
 
 Once downloaded, you'll get a report similar to [this one](docs/chat-report.png).
