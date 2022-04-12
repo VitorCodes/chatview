@@ -10,11 +10,17 @@ const Footer = () => {
     <footer className={styles['footer']}>
       Copyright © {new Date().getFullYear()}, Vitor Silva
       <div>
-        <a href={GITHUB_URL}>GitHub</a>
+        <a href={GITHUB_URL} target="_blank">
+          GitHub
+        </a>
         <span>•</span>
-        <a href={LINKEDIN_URL}>LinkedIn</a>
+        <a href={LINKEDIN_URL} target="_blank">
+          LinkedIn
+        </a>
         <span>•</span>
-        <a href={DONATE_URL}>Donate ❤️</a>
+        <a href={DONATE_URL} target="_blank">
+          Donate ❤️
+        </a>
       </div>
     </footer>
   )
