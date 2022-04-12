@@ -63,4 +63,7 @@ If you like the project and want to support further development, consider sendin
 **Ethereum** (or any other crypto asset) either via [CryptoRequest](https://cryptorequest.finance/#/pay/?req=eyJ2ZXJzaW9uIjoiMS4wLjAiLCJhbW91bnQiOiIiLCJpc1RpcCI6dHJ1ZSwicmVjZWl2ZXIiOiIweGYyMTUxMjZBMjc2NmZGZjdCNzNjRGMxNkE4MWI5RGI2ODFmMDMyRUEiLCJjaGFpbklkIjoiMSIsImlzVG9rZW4iOmZhbHNlLCJhc3NldEFkZHJlc3MiOiIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzeW1ib2wiOiJFVEgiLCJ0aXRsZSI6IiVGMCU5RiU4RSU5NyUyMFRpcCUyMENoYXRWaWV3JTIwbnBtJTIwcGFja2FnZSUyMCVGMCU5RiU4RSU5NyJ9) or directly to my wallet address `0xf215126A2766fFf7B73cDc16A81b9Db681f032EA`
 
 * A humble mug of coffee:  
-<a href="https://www.buymeacoffee.com/vitorcodes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" style="border-radius: 4px" /></a>
+<a href="https://www.buymeacoffee.com/vitorcodes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="200" style="border-radius: 4px" /></a>
+
+* Or perhaps a ko-fi?  
+<a href="https://ko-fi.com/vitorcodes" target="_blank"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11d6ea0473a3528b575b4_Button-3-p-1080.png" alt="Buy Me A Coffee" height="41" width="250" style="border-radius: 4px" /></a>

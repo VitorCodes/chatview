@@ -3,7 +3,7 @@ import styles from './styles.scss'
 
 const GITHUB_URL = 'https://github.com/VitorCodes'
 const LINKEDIN_URL = 'https://www.linkedin.com/in/vitorcodes/'
-const DONATE_URL = 'https://github.com/VitorCodes/chat-view#-donate'
+const DONATE_URL = 'https://github.com/VitorCodes/chatview#-donate'
 
 const Footer = () => {
   return (
